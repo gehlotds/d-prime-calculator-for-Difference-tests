@@ -19,11 +19,6 @@ Minimum for d' = 1: Calculates the minimum number of correct responses needed to
 Getting Started
 To use this application, you will need to have R and RStudio installed.
 
-Clone the Repository:
-
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-
 Install R Packages:
 Ensure you have the required R packages by running the following commands in your R console:
 
