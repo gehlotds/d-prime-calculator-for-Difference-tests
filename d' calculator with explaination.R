@@ -75,7 +75,7 @@ TEST_DATA <- list(
     variance_sequence = "High",
     memory_effect = "High",
     cognitive_strategy = "Complex cognitive task involving multiple comparisons and grouping decisions.",
-    example = "Four cups of Beer (two from Brand A, two from Brand B) — group the ones that taste the same.",
+    example = "Four cups containing juice (two from Brand A, two from Brand B) — group the ones that taste the same.",
     pc = 0.167,  # Precomputed: 1/6
     model = "Thurstonian"
   ),
@@ -557,3 +557,4 @@ server <- function(input, output, session) {
 
 
 shinyApp(ui = ui, server = server)
+
