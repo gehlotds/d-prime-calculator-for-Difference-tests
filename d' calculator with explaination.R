@@ -1,3 +1,4 @@
+# Load packages
 install.packages(c("shiny", "shinydashboard", "plotly", "DT"))
 
 # Load required libraries
@@ -553,5 +554,6 @@ server <- function(input, output, session) {
       )
   })
 }
+
 
 shinyApp(ui = ui, server = server)
